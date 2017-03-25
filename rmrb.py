@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # __author__ = 'bird'
-# 作用：获取近两年人民日报所有文章，人民日报地址：http://paper.people.com.cn/
+# 作用：获取近一周人民日报所有文章，人民日报地址：http://paper.people.com.cn/
 # 时间：2017年3月19日16:09:09
 
 
@@ -65,7 +65,7 @@ def get_news_text(news_urls):
         #print(news_text)
     except:
         traceback.print_exc()
-        news = "无法获得新闻内容，可能是两年前的新闻，暂不支持查询"
+        news = "无法获得新闻内容，可能是一周前的新闻，暂不支持查询"
     return news
 
 
